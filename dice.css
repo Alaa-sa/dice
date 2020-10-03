@@ -1,9 +1,12 @@
 body {
+  /* scroll-behavior: smooth; */
+  overflow-y: hidden;
   background-color: #34353E;
   padding-top: 50px
 }
 
 .result {
+  height: 100px;
   margin: 0;
   text-align: center;
   font-family: 'Grandstander', cursive;
@@ -15,25 +18,6 @@ body {
 .container {
   width: 50%;
   margin: 100px auto;
-}
-
-.header {
-  position: relative;
-}
-
-.p2, .p1 {
-  position: absolute;
-  color: white;
-  font-size: 72px;
-}
-
-.p2 {
-  left: 68%;
-  top: 0;
-}
-
-.p1 {
-  left: 30%;
 }
 
 .dices, .players-head {
